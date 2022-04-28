@@ -20,7 +20,7 @@ export default class StarMapScreen extends Component {
                     <Text style={styles.titleText}>Mapa Estelar</Text>
                     <TextInput
                         style={styles.inputStyle}
-                        placeholder="Enter your longitude"
+                        placeholder="Introduce tu logitud"
                         placeholderTextColor="white"
                         onChangeText={(text) => {
                             this.setState({
@@ -30,7 +30,7 @@ export default class StarMapScreen extends Component {
                     />
                     <TextInput
                         style={styles.inputStyle}
-                        placeholder="Enter your latitude"
+                        placeholder="Introduce tu latitud"
                         placeholderTextColor="white"
                         onChangeText={(text) => {
                             this.setState({
