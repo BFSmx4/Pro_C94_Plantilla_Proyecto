@@ -57,7 +57,7 @@ export default class SpaceCraftsScreen extends Component {
             return (
                 <View
                     style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-                    <Text>Loading</Text>
+                    <Text>Cargando</Text>
                 </View>
             )
         } else {
