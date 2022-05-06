@@ -46,7 +46,7 @@ export default class DailyPicScreen extends Component {
             return (
                 <View
                     style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-                    <Text>Loading</Text>
+                    <Text>Cargando</Text>
                 </View>
             )
         }
